@@ -5,11 +5,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-  return "HomePage"
+  return "Backend Home"
 
 @app.route('/app')
 def blog():
-  return "Hello, from App!"
+  return "Hello, from Backend App!"
 
 if __name__ == 'main':
   app.run()
